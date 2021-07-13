@@ -1,6 +1,6 @@
 const webpack = require('webpack')
 module.exports = {
-  publicPath: process.env.NODE_ENV === 'production' ? '/jeffery36.github.io/' : '/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/myself/' : '/',
   configureWebpack: {
     plugins: [
       new webpack.ProvidePlugin({
