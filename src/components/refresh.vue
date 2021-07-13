@@ -20,9 +20,9 @@ export default {
     methods: {
         WindowLoad() {
             this.isLoad = true 
-            // setTimeout(function(){
-            //     document.getElementById("refresh").remove()
-            // }, 1300)
+            setTimeout(function(){
+                document.getElementById("refresh").remove()
+            }, 1300)
         }
     }
 }
