@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+#font-end {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.chart {
+    width: 100%;
+    height: 300px;
+}
+
+.bars {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 100%;
+    height: 300px;
+    box-shadow: 5px 5px 10px 0 #555;
+    border-radius: 5px;
+}   
+
+.bars li {
+    display: table-cell;
+    width: 100px;
+    height: 300px;
+    position: relative;
+}
+
+.bars span {
+    width: 100%;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+}
+
+.bars .bar {
+    background: #17c0eb;
+    width: 30px;
+    position: absolute;
+    bottom: 0;
+    margin-left: 25px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(23, 192, 235, 0.5);
+    transition: 0.5s;
+    transition-property: background, box-shadow; /*定義哪些 property 會被轉場效果 transition 影響*/
+}
+
+.bars .bar:hover {
+    background: #55efc4;
+    box-shadow: 0 0 10px 0 rgba(85, 239, 196, 0.5);
+    cursor: pointer;
+}
+
+.bars .bar:before {
+    color: black;
+    content: attr(data-percentage) "%"; /*content 屬性在 before 和 after 偽元素中插入內容*/
+    position: relative;
+    bottom: 20px;
+}
