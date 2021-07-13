@@ -1,6 +1,6 @@
 <template>
     <div id="refresh" :class="{'fade-out': isLoad}" class="d-flex justify-content-center align-items-center">
-        <div id="refresh-item" class="vibrate-3 d-flex justify-content-center align-items-center p-3">
+        <div id="refresh-item" class="vibrate-3 d-flex justify-content-center">
             Loading......
         </div>
     </div>
@@ -20,9 +20,9 @@ export default {
     methods: {
         WindowLoad() {
             this.isLoad = true 
-            setTimeout(function(){
-                document.getElementById("refresh").remove()
-            }, 1300)
+            // setTimeout(function(){
+            //     document.getElementById("refresh").remove()
+            // }, 1300)
         }
     }
 }
