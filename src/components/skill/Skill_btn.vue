@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row justify-content-evenly">
             <div class="skill-btn col-7 col-md-3 mt-2 mt-md-0">
-                <button id="showF" type="button" @click="showFont" class="snip1562">Font-End</button>
+                <button id="showF" type="button" @click="showFont" class="snip1562">Front-End</button>
             </div>
             <div class="skill-btn col-7 col-md-3 mt-3 mt-md-0">
                 <button id="showD" type="button" @click="showData" class="snip1562">Data-Analysis</button>

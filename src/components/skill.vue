@@ -6,7 +6,7 @@
         <div id="Skill_chart" class="container py-md-5"> 
             <div id="font-end" class="row justify-content-evenly" v-if="FontEnd">
                 <div id="font-end-text" class="col-12 col-lg-5 px-5 pb-4 py-lg-0 d-flex align-self-center flex-column">
-                    <h2>Font-End</h2>
+                    <h2>Front-End</h2>
                     <p>
                         雖然學校沒有教前端的部分，但是因為自己對網頁這方面有興趣，想給予使用者帶來良好的體驗，
                         於是自學了前端開發。
@@ -29,7 +29,7 @@
                         網路爬蟲，在於 R 的方面也有一些基礎。
                     </p>
                     <p>
-                        爬蟲方面主要使用過 requests、selenium 來進行爬取，但也用過 scrapy。
+                        爬蟲方面主要使用的工具是 requests、scrapy 和 selenium。
                     </p>
                 </div>
                 <div id="data-analysis-chart" class="col-10 col-lg-5 p-3 pt-0 pe-0 p-lg-0 d-flex flex-column align-self-center">
